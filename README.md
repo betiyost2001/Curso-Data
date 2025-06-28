@@ -65,8 +65,10 @@ gold/                      # Capa Gold (agregaciones)
 4. Ejecutar el script:
   python betinayost_tp_final.py
 
+---
 
-📌 Detalles implementados
+
+## 📌 Detalles implementados
 
 ✅ Extracción
 -requests.get() para consumir API dinámica y estática
@@ -85,14 +87,20 @@ gold/                      # Capa Gold (agregaciones)
 -Cálculo de: temperatura promedio, máxima y mínima
 -Guardado en la capa Gold
 
-🔒 Consideraciones de seguridad
+---
+
+## 🔒 Consideraciones de seguridad
 Este proyecto no utiliza datos personales sensibles ni credenciales de acceso.
 Todos los datos provienen de fuentes públicas, por lo tanto no requiere anonimización ni protección especial.
 
-👩‍💻 Autor
+---
+
+## 👩‍💻 Autor
 Betina Yost
 GitHub: @betiyost2001
 📧 yostbetina20@gmail.com
 
-🏁 Estado
+---
+
+## 🏁 Estado
 ✅ Proyecto completado y aprobado con un 86% en la evaluación final de UTN BA.

@@ -71,21 +71,24 @@ gold/                      # Capa Gold (agregaciones)
 ## 📌 Detalles implementados
 
 ✅ Extracción
--requests.get() para consumir API dinámica y estática
--Guardado incremental (append) en Delta Lake, particionado por fecha y hora
--Guardado full con overwrite en datos estáticos
+
+- requests.get() para consumir API dinámica y estática
+- Guardado incremental (append) en Delta Lake, particionado por fecha y hora
+- Guardado full con overwrite en datos estáticos
 
 ✅ Transformaciones
--Eliminación de duplicados
--Relleno de valores nulos
--Conversión de fechas
--Columnas derivadas (alta_temp, alta_poblacion)
--Normalización de texto
+
+- Eliminación de duplicados
+- Relleno de valores nulos
+- Conversión de fechas
+- Columnas derivadas (alta_temp, alta_poblacion)
+- Normalización de texto
 
 ✅ Agregaciones
--groupby por fecha
--Cálculo de: temperatura promedio, máxima y mínima
--Guardado en la capa Gold
+
+- groupby por fecha
+- Cálculo de: temperatura promedio, máxima y mínima
+- Guardado en la capa Gold
 
 ---
 

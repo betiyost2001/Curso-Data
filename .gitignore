@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+.env
+venv/
+datalake_tp1/
+silver/
+gold/
